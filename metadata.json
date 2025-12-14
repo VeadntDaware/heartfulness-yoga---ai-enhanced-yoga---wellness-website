@@ -1,0 +1,8 @@
+
+{
+  "name": "Heartfulness Yoga - AI Enhanced Yoga & Wellness",
+  "description": "A premium yoga and mindfulness platform featuring AI-powered personalized wellness guidance, diverse classes, and expert instructors.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
