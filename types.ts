@@ -4,6 +4,10 @@ export interface Instructor {
   role: string;
   img: string;
   bio: string;
+  location?: string;
+  certification?: string;
+  rating?: number;
+  specialties?: string[];
 }
 
 export interface YogaClass {

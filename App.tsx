@@ -7,6 +7,8 @@ import Classes from './pages/Classes';
 import Instructors from './pages/Instructors';
 import Pricing from './pages/Pricing';
 import AIGuide from './pages/AIGuide';
+import TeachWithUs from './pages/TeachWithUs';
+import FindTrainer from './pages/FindTrainer';
 
 const App: React.FC = () => {
   return (
@@ -18,6 +20,8 @@ const App: React.FC = () => {
           <Route path="/instructors" element={<Instructors />} />
           <Route path="/pricing" element={<Pricing />} />
           <Route path="/ai-guide" element={<AIGuide />} />
+          <Route path="/teach" element={<TeachWithUs />} />
+          <Route path="/find-trainer" element={<FindTrainer />} />
         </Routes>
       </Layout>
     </Router>

@@ -18,12 +18,66 @@ export const IMAGES = {
 };
 
 export const instructors: Instructor[] = [
-  { name: "Sarah Mitchell", role: "Vinyasa Flow", img: "https://images.unsplash.com/photo-1512290923902-8a92f1c04996?q=80&w=600", bio: "Sarah has 10 years of experience in flowing meditation." },
-  { name: "David Chen", role: "Hatha Yoga", img: "https://images.unsplash.com/photo-1544367563-121910aa642b?q=80&w=600", bio: "David specializes in traditional alignment and focus." },
-  { name: "Emma Wilson", role: "Meditation", img: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?q=80&w=600", bio: "Emma guides students through deep inner peace." },
-  { name: "Michael Ross", role: "Power Yoga", img: "https://images.unsplash.com/photo-1594381898411-846e7d193883?q=80&w=600", bio: "Michael focuses on core strength and high energy." },
-  { name: "Jessica Lee", role: "Restorative", img: "https://images.unsplash.com/photo-1518310383802-640c2de311b2?q=80&w=600", bio: "Jessica helps in healing through soft, supported poses." },
-  { name: "Tom Harris", role: "Ashtanga", img: "https://images.unsplash.com/photo-1525134479668-1bee5c7c6845?q=80&w=600", bio: "Tom teaches the dynamic and traditional eight-limbed path." },
+  {
+    name: "Sarah Mitchell",
+    role: "Vinyasa Flow",
+    img: "https://images.unsplash.com/photo-1512290923902-8a92f1c04996?q=80&w=600",
+    bio: "Sarah has 10 years of experience in flowing meditation.",
+    location: "New York, NY",
+    certification: "RYT-500",
+    rating: 4.9,
+    specialties: ["Vinyasa", "Prenatal", "Flow"]
+  },
+  {
+    name: "David Chen",
+    role: "Hatha Yoga",
+    img: "https://images.unsplash.com/photo-1544367563-121910aa642b?q=80&w=600",
+    bio: "David specializes in traditional alignment and focus.",
+    location: "San Francisco, CA",
+    certification: "RYT-200",
+    rating: 4.8,
+    specialties: ["Hatha", "Alignment", "Props"]
+  },
+  {
+    name: "Emma Wilson",
+    role: "Meditation",
+    img: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?q=80&w=600",
+    bio: "Emma guides students through deep inner peace.",
+    location: "London, UK",
+    certification: "E-RYT 500",
+    rating: 5.0,
+    specialties: ["Meditation", "Yin", "Breathwork"]
+  },
+  {
+    name: "Michael Ross",
+    role: "Power Yoga",
+    img: "https://images.unsplash.com/photo-1594381898411-846e7d193883?q=80&w=600",
+    bio: "Michael focuses on core strength and high energy.",
+    location: "Los Angeles, CA",
+    certification: "RYT-500",
+    rating: 4.9,
+    specialties: ["Power", "Strength", "Inversions"]
+  },
+  {
+    name: "Jessica Lee",
+    role: "Restorative",
+    img: "https://images.unsplash.com/photo-1518310383802-640c2de311b2?q=80&w=600",
+    bio: "Jessica helps in healing through soft, supported poses.",
+    location: "Austin, TX",
+    certification: "RYT-200",
+    rating: 4.7,
+    specialties: ["Restorative", "Therapy", "Gentle"]
+  },
+  {
+    name: "Tom Harris",
+    role: "Ashtanga",
+    img: "https://images.unsplash.com/photo-1525134479668-1bee5c7c6845?q=80&w=600",
+    bio: "Tom teaches the dynamic and traditional eight-limbed path.",
+    location: "Chicago, IL",
+    certification: "E-RYT 200",
+    rating: 4.8,
+    specialties: ["Ashtanga", "Traditional", "Mysore"]
+  },
 ];
 
 export const yogaClasses: YogaClass[] = [
